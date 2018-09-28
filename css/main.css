@@ -1,3 +1,20 @@
+@font-face { 	font-family: "fonts_title"; 	src: url('/fonts/anirm___.ttf'); }
+
+#mainNavbar {
+    background-color: #ff5f01;
+    font-family: fonts_title;
+}
+
+.navBorder {
+    border-right: white;
+    border-style: solid;
+    border-width: 0 2px 0 0;
+}
+
+.nav-link{
+    color:white!important;
+}
+
 .image{
     opacity:0.5;
     width:100%;
