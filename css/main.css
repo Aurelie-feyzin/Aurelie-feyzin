@@ -231,7 +231,7 @@ section .text {
     padding-bottom: 2rem;
 }
 
-#reward button {
+#reward .btn {
     color: #ff5f01;
     font-family: fonts_title;
     font-size: 1.2em;
@@ -240,6 +240,7 @@ section .text {
 
 .parent-skew {
     transform: skew(-25deg);
+    background-color: white;
 }
 
 .skew {
