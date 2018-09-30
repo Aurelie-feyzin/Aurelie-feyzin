@@ -1,4 +1,11 @@
-@font-face { 	font-family: "fonts_title"; 	src: url('/fonts/anirm___.ttf'); }
+@font-face {
+    font-family: 'fonts_title';
+    src: url('../fonts/anicb___.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'fonts_text';
+    src: url('../fonts/partybusiness.ttf') format('truetype');
+}
 
 #mainNavbar {
     background-color: #ff5f01;
@@ -23,10 +30,33 @@
     margin:0;
 }
 
-
 .list {
     list-style-type: none;
 }
+
+#carouselExampleControls img {
+    height: 40rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 15rem;
+    font-family: fonts_text;
+
+}
+
+.carousel-caption h1 {
+    font-size:4em;
+}
+
+.carousel-caption p {
+    font-size:2em;
+}
+
+.carousel-caption p span{
+    margin-right: 10rem;
+}
+
 .reward, .dead {
     position: absolute;
     width: 70%;
