@@ -24,19 +24,19 @@
                 <a class="nav-link" href="#fellows">Fellows</a>
             </li>
             <li class="nav-item px-4 navBorder">
-                <a class="nav-link" href="#">The Ring</a>
+                <a class="nav-link" href="#ring">The Ring</a>
             </li>
             <li class="nav-item px-4 navBorder">
-                <a class="nav-link" href="#">Reward</a>
+                <a class="nav-link" href="#reward">Reward</a>
             </li>
             <li class="nav-item px-4 navBorder">
-                <a class="nav-link" href="#">Hunters</a>
+                <a class="nav-link" href="#hunters">Hunters</a>
             </li>
             <li class="nav-item px-4 navBorder">
-                <a class="nav-link" href="#">Join</a>
+                <a class="nav-link" href="#join">Join</a>
             </li>
             <li class="nav-item pl-4">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
         </ul>
     </div>
@@ -55,14 +55,14 @@
             <img class="d-block w-100 img-fluid" src="images/Il_Signore_degli_Anelli_132.JPG" alt="Second slide">
                   <div class="carousel-caption text-left">
                     <h1>Example headline.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100 img-fluid" src="images/The-lord-of-rings-maps.jpg" alt="Third slide">
                 <div class="carousel-caption text-left">
                     <h1>Example headline.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             </div>
         </div>
     </div>
@@ -76,57 +76,61 @@
     </a>
 </div>
 
-<div class="container">
-<section id="fellows">
+
+<section id="fellows" class="bg-primary">
+    <div class="container">
     <header>
-        <h2>
-            Fellows wanted dead
-            <small class="text-muted">(or alive if you want to eat them later)</small>
+        <h2><span>ij</span> Fellows wanted dead
+            <small>(or alive if you want to eat them later)</small>
+            <span>ij</span>
         </h2>
     </header>
     <nav class="nav nav-pills nav-fill">
         <a class="nav-item nav-link active" href="#">Most Wanted</a>
-        <a class="nav-item nav-link" href="#">Most dangerous</a>
+        <a class="nav-item nav-link" href="#most_dangerous">Most dangerous</a>
         <a class="nav-item nav-link" href="#">Already captured</a>
     </nav>
     <br>
-    <div class="card-deck">
+    <div id="most_dangerous" class="card-deck">
         <div class="card ">
             <div class="picture all text-center">
-                <img class="card-img-top image" src="images/gandalf.png" alt="" />
+                <img class="card-img-top image-alive" src="images/gandalf.png" alt="" />
                 <p class="reward ">Reward<br/><span class="nbCoins">1000</span> golden coins</p>
-                <p class="name">Gandalf</p>
+                <p class="name name-alive">Gandalf</p>
             </div>
-            <div class="card-body">
+            <div class="card-body bg-secondary">
                 <p class="card-text">a very dangerous<br/>wizard, balroy killer ...</p>
             </div>
         </div>
         <div class="card">
             <div class="picture all text-center">
-                <img class="card-img-top image" src="images/gandalf.png" alt="" />
-                <p class="dead">Dead</p>
-                <p class="name">Hobbit #3</p>
-            </div>
-            <div class="card-body">
-                <p class="card-text">Small description</p>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="picture all text-center">
-                <img class="card-img-top image" src="images/gandalf.png" alt="" />
+                <img class="card-img-top image-alive" src="images/aragorn.png" alt="" />
                 <p class="reward ">Reward<br/><span class="nbCoins">250</span> golden coins</p>
-                <p class="name">Yummy Dwarf</p>
+                <p class="name name-alive">Aragon</p>
             </div>
-            <div class="card-body">
-                <p class="card-text">a very dangerous<br/>wizard, balroy killer ...</p>
+            <div class="card-body bg-secondary">
+                <p class="card-text">sauron's finger says him<br/>his sword is dangerous ...</p>
             </div>
         </div>
+        <div class="card">
+            <div class="picture all text-center">
+                <img class="card-img-top image-dead" src="images/gimli.png" alt="" />
+                <p class="dead">dead</p>
+                <p class="name name-dead">Gimli</p>
+            </div>
+            <div class="card-body bg-secondary">
+                <p class="card-text">a dwarf, wich a beard<br/>and an axe ...</p>
+            </div>
+        </div>
+
+    </div>
     </div>
 </section>
 <hr>
-<section class="reaward">
+<section id="reward" class="bg-secondary">
+    <div class="container">
     <header>
-        <h2>I have captured one of them, how to get my reward ?</h2>
+        <h2><span>ij</span> I have captured one of them, how to get my reward ? <span>ij</span></h2>
     </header>
     <div class="row">
         <div class="col-md-10">
@@ -136,14 +140,16 @@
             </div>
         </div>
         <div class="col-md-2">
-            <a href="https://placeholder.com" class="img-fluid mx-autot"><img src="http://via.placeholder.com/140x140" alt="placeholder"></a>
+            <img src="images/coin_sauron.png" alt="coin_sauron" class="rounded-circle">
         </div>
+    </div>
     </div>
 </section>
 <hr>
-    <section>
+    <section id="hunters" class="bg-primary">
+        <div class="container">
         <header>
-            <h2>Best hunters</h2>
+            <h2><span>ij</span> Our best hunters <span>ij</span></h2>
         </header>
         <div class="row">
             <div class="media col-sm">
@@ -163,11 +169,13 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
 <hr>
-<section class="ring">
+<section id="ring" class="bg-secondary">
+    <div class="container">
     <header>
-        <h2>About the ring</h2>
+        <h2><span>ij</span> About the ring <span>ij</span></h2>
     </header>
     <div class="card border-dark">
         <div class="card-header">Ring Capabilities</div>
@@ -215,13 +223,14 @@
             </div>
         </div>
     </div>
-
+    </div>
 
 </section>
 <hr>
-<section>
+<section id="join" class="bg-primary">
+    <div class="container">
     <header>
-        <h2>Join Modor Army, we need you !</h2>
+        <h2><span>ij</span> Join Modor Army, we need you ! <span>ij</span></h2>
     </header>
     <div class="row">
         <div class="col-md-2">
@@ -233,11 +242,12 @@
                 <button>More info on SauronRulesThemAll.com</button>
             </div>
         </div>
-
+    </div>
     </div>
 </section>
 <hr>
-<section>
+<section id="contact" class="bg-secondary">
+    <div class="container">
     <header>
         <h2>Contact us</h2>
     </header>
@@ -282,10 +292,10 @@
             </div>
         </div>
     </form>
-
+    </div>
 </section>
 </div>
-<hr>
+
 <footer>
     <div class="container">
     <div class="row">
@@ -294,14 +304,15 @@
         <li class=""><a href=" ">Fellows</a> </li>
         <li class=""><a href=" ">Join our army</a></li>
     </ul>
-    <ul class="list list-group col-sm-6">
+    <ul class="list list-group col-sm-5">
         <li class=""><a href=" ">FAQ</a></li>
         <li class=""><a href=" ">Reward conditions</a></li>
         <li class=""><a href=" ">Legal mentions</a> </li>
     </ul>
-    <ul class="list list-group col-sm-3">
-        <li class=""><a href=" ">Sauron4Ever.com</a></li>
-        <li class=""><a href=" ">Follo him also on twitter</a></li>
+    <ul class="list list-group col-sm-4">
+        <li class=""><a href=" ">Sauron4Ever.com</a><br>
+        <a href=" ">Follow him also on twitter</a></li>
+        <li><br><a class="" href="#"><img src="images/logo.png"></a></li>
     </ul>
     </div>
     </div>

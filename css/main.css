@@ -7,27 +7,38 @@
     src: url('../fonts/partybusiness.ttf') format('truetype');
 }
 
-#mainNavbar {
+@font-face {
+    font-family: 'fonts_symbol';
+    src: url('../fonts/tngan.ttf') format('truetype');
+}
+
+.bg-primary {
+    background-image: url("../images/bg_light.png");
+    color: black;
+}
+
+.bg-secondary {
+    background-image: url("../images/bg_dark.png");
+    color: white;
+}
+
+p {
+    font-family: fonts_text;
+}
+
+footer, #mainNavbar {
     background-color: #ff5f01;
     font-family: fonts_title;
 }
 
-.navBorder {
+#mainNavbar .navBorder {
     border-right: white;
     border-style: solid;
     border-width: 0 2px 0 0;
 }
 
-.nav-link{
+footer a, #mainNavbar .nav-link{
     color:white!important;
-}
-
-.image{
-    opacity:0.5;
-    width:100%;
-    height:100%;
-    padding:0;
-    margin:0;
 }
 
 .list {
@@ -46,15 +57,77 @@
 }
 
 .carousel-caption h1 {
-    font-size:4em;
+    font-size:6em;
 }
 
 .carousel-caption p {
-    font-size:2em;
+    font-size:3em;
 }
 
 .carousel-caption p span{
     margin-right: 10rem;
+}
+
+section {
+    padding : 3rem 0;
+    margin: 0!important;
+}
+
+header {
+    padding: 2rem 0;
+    font-family: fonts_title;
+}
+
+header span {
+    font-family: fonts_symbol;
+    color: #ff5f01;
+}
+
+header h2 {
+    font-size: 2em;
+}
+
+header h2 small{
+    font-size: 0.5em;
+    color: black;
+}
+
+nav {
+    font-family: fonts_title;
+}
+
+nav .nav-pills {
+    background-color: red!important;
+}
+
+nav .nav-link {
+    color: grey!important;
+}
+
+nav .nav-link.active {
+    color: #ff5f01!important;
+    background-color: transparent!important;
+    text-decoration: underline;
+}
+
+.card {
+    border: solid black 2px!important;
+}
+
+.image-alive {
+    opacity:0.5;
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+.image-dead {
+    -webkit-filter: opacity(35%);filter: opacity(35%);
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
 }
 
 .reward, .dead {
@@ -63,15 +136,14 @@
     top: 0.5em;
     left: 50%;
     transform: translate(-50%);
-
     padding: 0.1em 0.2em 0.1em 0.2em;
-
+    font-family: fonts_text;
 }
 
 .reward {
     background-color: #FFF;
     text-align:center;
-    font-size: 1em;
+    font-size: 2em;
     color:#000;
     border-radius: 10px;
     opacity: 0.8;
@@ -80,27 +152,39 @@
 .dead {
     color: #ff5f01;
     background-color: transparent;
-    opacity: 1;
-    font-size: 1.6em;
+    font-size: 3em;
+}
+
+.card-body {
+    font-family: fonts_text;
+    font-size: 1.8em;
 }
 
 
 .nbCoins{
-    color: orange;
+    color: #ff5f01;
 }
 
 .name {
     position: absolute;
     width:100%;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%);
     text-align: center;
     color:#FFF;
-    font-size: 2em;
+    font-size: 4em;
+    font-family: fonts_text;
+    background-color: transparent;
 }
 
-.all:hover .image{
+.name-dead {
+    text-decoration: line-through;
+    text-decoration-color: #ff5f01;
+
+}
+
+.all:hover .image-alive{
     opacity: 1;
 }
 
@@ -108,7 +192,19 @@
     display: none;
 }
 
-.all:hover .name {
-    top: 65%;
+.all:hover .name-alive {
+    top: 60%;
+    font-size: 3em;
+}
+
+#reward p {
     font-size: 1.5em;
+}
+
+footer {
+    padding: 2rem 0;
+}
+
+footer li {
+    padding: 0.8em;
 }
