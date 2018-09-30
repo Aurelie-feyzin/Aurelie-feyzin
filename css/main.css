@@ -326,6 +326,35 @@ section .text {
     padding: 0.5em 1em;
 }
 
+#join .row {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+#join .text {
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    word-spacing: 0.05em;
+}
+
+#join .div_more_info {
+    margin: auto;
+
+}
+
+#join .p_more_info {
+    font-family: fonts_title;
+    font-size: 2em;
+    color: #ff5f01;
+}
+
+#join .btn-black {
+    background-color: black;
+    color: #ff5f01!important;
+    font-size: 1.5em;
+    font-family: fonts_title;
+}
+
 #footer {
     padding: 2rem 0;
 }
