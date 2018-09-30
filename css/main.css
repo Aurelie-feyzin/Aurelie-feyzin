@@ -41,13 +41,12 @@ section {
 }
 
 .container {
-    margin-top: 2rem;
     padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-top: 5rem;
 
 }
 
-footer, #mainNavbar {
+#footer, #mainNavbar {
     background-color: #ff5f01;
     font-family: fonts_title;
 }
@@ -58,7 +57,7 @@ footer, #mainNavbar {
     border-width: 0 2px 0 0;
 }
 
-footer a, #mainNavbar .nav-link{
+#footer a, #mainNavbar .nav-link{
     color:white!important;
 }
 
@@ -95,7 +94,7 @@ section {
 }
 
 header {
-    padding: 2rem 0;
+    padding: 0 0 3rem 0;
     font-family: fonts_title;
 }
 
@@ -222,14 +221,6 @@ nav .nav-link.active {
     font-size: 1.5em;
 }
 
-footer {
-    padding: 2rem 0;
-}
-
-footer li {
-    padding: 0.8em;
-}
-
 section .text {
     font-size: 1.2em;
     letter-spacing: 0.05em;
@@ -287,4 +278,58 @@ section .text {
     font-size: 1.5em;
     padding:0!important;
     margin:0!important;
+}
+
+#ring .card {
+    padding: 0!important;
+    border-bottom: #ff5f01 4px solid!important;
+    border-radius: 15px 15px 0 0!important;
+    background-color: #DDDDDD;
+}
+
+#ring .card-header {
+    background-color: #ff5f01;
+    font-family: fonts_title;
+    font-size: 1.5rem;
+    border-radius: 15px 15px 0 0!important;
+}
+
+#ring .card-title {
+    font-size: 1.8rem;
+}
+
+#ring table {
+    font-family: fonts_title;
+}
+
+#ring table thead th{
+    font-size: 1.2rem;
+    border-bottom: 3px solid #777a7d!important;
+}
+
+#ring table tbody {
+    font-size: 1rem;
+}
+
+#ring td {
+    padding-left: 2em;
+    color:grey;
+}
+.parent-blockquote {
+    display: flex;
+}
+
+#ring blockquote {
+    color: black;
+    margin: auto;
+    font-size: 1.3em;
+    padding: 0.5em 1em;
+}
+
+#footer {
+    padding: 2rem 0;
+}
+
+#footer li {
+    padding: 0.8em;
 }
