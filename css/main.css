@@ -355,8 +355,16 @@ section .text {
     font-family: fonts_title;
 }
 
-#footer {
-    padding: 2rem 0;
+#contact form {
+    font-family: fonts_title;
+}
+
+#contact select {
+    height: 3em;
+}
+
+#footer .container{
+    padding: 1.5rem 0 !important;
 }
 
 #footer li {
