@@ -42,7 +42,9 @@ section {
 
 .container {
     margin-top: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+
 }
 
 footer, #mainNavbar {
@@ -238,20 +240,51 @@ section .text {
     padding-bottom: 2rem;
 }
 
-/*#reward .parent-btn {
-    transform: skew(-25deg);
-    border: solid 2px red;
-    margin:0!important;
-    padding: 0!important;
-}*/
-
 #reward button {
     color: #ff5f01;
     font-family: fonts_title;
     font-size: 1.2em;
+
+}
+
+.parent-skew {
     transform: skew(-25deg);
 }
 
-#reward button .btn-skew {
+.skew {
     transform: skew(25deg);
+}
+
+#hunters .media-body {
+    font-family: fonts_text;
+}
+
+#hunters .media-body p {
+    font-size: 1.5em;
+    padding: 0!important;
+    margin: 0!important;
+}
+
+#hunters .media-body .display-1 {
+    color: #ff5f01;
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+#hunters .media-body .underline {
+    text-decoration: underline;
+
+}
+
+#hunters .parent-skew{
+    background-image: url("../images/bg_dark.png");
+    height: auto;
+    width: 8rem;
+}
+
+#hunters .skew{
+    color: #ff5f01;
+    font-size: 1.5em;
+    padding:0!important;
+    margin:0!important;
 }
