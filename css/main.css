@@ -493,11 +493,85 @@ section .text {
     }
 }
 
-/* Small devices (landscape phones, 576px and up)
+/* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+    #carouselExampleControls img {
+        height: 100vh;
+    }
+    .carousel-caption {
+        top: 8rem;
+    }
+
+    .carousel-caption h1 {
+        font-size:2.5em;
+    }
+
+    .carousel-caption p {
+        font-size:1.8em;
+    }
+
+    .carousel-caption p span{
+        margin-right: 2rem;
+    }
+
+    #fellows .card-deck {
+        margin: 0 -5em!important;
+        padding: 0!important;
+    }
+
+    .reward, .dead {
+        width: 90%;
+        top: 0.3em;
+        padding: 0.1em 0.1em;
+    }
+
+    .reward {
+        font-size: 1.5em;
+    }
+
+    .dead {
+        font-size: 2em;
+    }
+
+    .card-body {
+        font-size: 1.5em;
+        padding:0 0.5em!important;
+        margin: auto!important;
+    }
+
+    .name {
+        top : 25%;
+        font-size: 3em;
+    }
+
+    .all:hover .name-alive {
+        top: 45%;
+        font-size: 2em;
+    }
+
+    #coin_sauron {
+        text-align: center;
+        padding-top: 4em;
+    }
+
+    #hunters .margin {
+        margin: 3em 0 0 0;
+    }
+
+    #img_gollum {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    #join img {
+        margin-bottom: 2em;
+    }
+
+    #contact form {
+        margin-bottom: 1.5em;
     }
 }
-*/
+
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {

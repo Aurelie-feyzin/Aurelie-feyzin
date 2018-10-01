@@ -10,3 +10,13 @@
 lien vers le rendu de cette partie : 
 https://codepen.io/Rachellane/full/vzqQKw
 
+#### Part 2
+
+**Objectif** :
+intégrer la maquette finale du graphiste [disponible ici](http://images.innoveduc.fr/integration_maquette_finale.jpg) ou dans images/integration_maquette_finale.jpg.
+
+    Remarque: ce challenge est particulièrement long à réaliser dans son intégralité. C'est pourquoi tu peux te limiter uniquement aux parties navbar, slider et portraits qui devront coller à la maquette le plus fidèlement possible. Cela signifie que tu dois faire au plus près de la maquette, mais ne t'acharne pas forcément à coller au pixel prêt, la maquette n'intégrant pas ce type de contrainte, cela te laisse une petite marge d'erreur acceptable. Pour les autres parties, tu pourras les créer grossièrement, sans te soucier de respecter à la lettre la maquette.
+
+lien vers le rendu de cette partie : 
+https://codepen.io/Rachellane/full/rqONmX
+
