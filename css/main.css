@@ -86,11 +86,6 @@ section {
     margin-right: 10rem;
 }
 
-section {
-    padding : 2rem 0;
-    margin: 0!important;
-}
-
 header {
     padding: 0 0 3rem 0;
     font-family: fonts_title;
@@ -371,12 +366,140 @@ section .text {
     padding: 0.8em;
 }
 
-/*@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) {
+    .container {
+        padding-bottom: 1.5rem;
+        padding-top: 4rem;
+    }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+    #carouselExampleControls img {
+        height: 100vw;
+    }
+    .carousel-caption {
+        top: 7rem;
+    }
 
-// Medium devices (tablets, 768px and up)*/
+    .carousel-caption h1 {
+        font-size:2.5em;
+    }
+
+    .carousel-caption p {
+        font-size:1.8em;
+    }
+
+    .carousel-caption p span{
+        margin-right: 2rem;
+    }
+
+    header {
+        padding: 0 0 2rem 0;
+    }
+
+    header h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    header h2 small {
+        font-size: 0.5em;
+    }
+
+
+    section .text {
+        font-size: 1.1em;
+        word-spacing: 0em!important;
+        padding: 0 1em;
+    }
+
+    #coin_sauron {
+        text-align: center;
+        padding: 3em 0 2em 0 ;
+    }
+
+    #hunters .row {
+        padding: 0;
+    }
+
+    #hunters .margin {
+        margin: 3em 0 0 0;
+    }
+
+    #hunters p{
+        font-size: 1.3em!important;
+    }
+    #hunters .display-1 {
+        font-size: 1.7em!important;
+    }
+
+    #ring .card-header {
+        font-size: 1.3rem;
+    }
+
+    #ring .card-title {
+        font-size: 1.5rem;
+    }
+
+    #ring table thead th{
+        font-size: 1.1rem;
+    }
+
+    #ring table tbody {
+        font-size: 0.9rem;
+    }
+
+    #ring td {
+        padding-left: 1em;
+    }
+
+    #ring blockquote {
+        font-size: 1em;
+        padding: 0.5em 0.5em;
+    }
+
+    #img_gollum {
+        text-align: center;
+    }
+
+    #join .text {
+        font-size: 1.4em;
+        word-spacing: 0em!important;
+        padding: 0 1em;
+    }
+
+    #join img {
+        margin-bottom: 2em;
+    }
+
+    #join .div_more_info {
+        margin:0!important;
+        padding: 0!important;
+        font-size: 0.8em;
+    }
+
+    #contact form {
+        margin-bottom: 1em;
+    }
+
+    #footer {
+        padding:0 1.5em!important;
+    }
+
+    #footer .container{
+        padding: 1rem 0 !important;
+    }
+
+    #footer li {
+        padding: 0.5em;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    }
+}
+*/
+
+/*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
     .carousel-caption h1 {
         font-size:4em;
