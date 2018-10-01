@@ -43,7 +43,6 @@ section {
 .container {
     padding-bottom: 3rem;
     padding-top: 5rem;
-
 }
 
 #footer, #mainNavbar {
@@ -73,7 +72,6 @@ section {
     position: absolute;
     top: 15rem;
     font-family: fonts_text;
-
 }
 
 .carousel-caption h1 {
@@ -225,6 +223,7 @@ section .text {
     font-size: 1.2em;
     letter-spacing: 0.05em;
     word-spacing: 0.05em;
+    padding-right: 2em;
 }
 
 #reward p {
@@ -371,3 +370,74 @@ section .text {
 #footer li {
     padding: 0.8em;
 }
+
+/*@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .carousel-caption h1 {
+        font-size:4em;
+    }
+
+    .carousel-caption p {
+        font-size:2em;
+    }
+
+    .carousel-caption p span{
+        margin-right: 5rem;
+    }
+
+    .reward, .dead {
+        width: 90%;
+        top: 0.3em;
+        padding: 0.1em 0.1em;
+    }
+
+    .reward {
+        font-size: 1.5em;
+    }
+
+    .dead {
+        font-size: 2em;
+    }
+
+    .card-body {
+        font-size: 1.5em;
+        padding:0 0.5em!important;
+        margin: auto!important;
+    }
+
+    .name {
+        top : 25%;
+        font-size: 3em;
+    }
+
+    .all:hover .name-alive {
+        top: 45%;
+        font-size: 2em;
+    }
+
+    #coin_sauron {
+        padding: 4.5em 0;
+    }
+
+    #hunters .row {
+        padding: 0 0 0 10em ;
+    }
+
+    #hunters .margin {
+        margin: 3em 0 0 0;
+    }
+
+    #img_gollum {
+        padding-top: 0.8em;
+    }
+
+    #join img {
+        margin-bottom: 2em;
+    }
+}
+
