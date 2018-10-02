@@ -1,0 +1,46 @@
+@mixin ring($sizeImg, $color, $nbRing) {
+  $decalage: 0;
+  @for $i from 1 through $nbRing {
+    .ring#{$i} {
+      width: $sizeImg;
+      height: $sizeImg;
+      border: $sizeImg/10 solid $color;
+      border-radius:$sizeImg/2;
+      box-shadow:$sizeImg/50 $sizeImg/50 $sizeImg/25 darken($color, 15%);
+      @if $i == 1 {
+        position:static;
+      } @else {
+        position:relative;
+        left:-$decalage;
+      }
+      z-index: $i;
+      $sizeImg: $sizeImg * 1.2;
+      $decalage:  $decalage + $sizeImg*0.4;
+    }
+  }
+}
+
+h1 {
+  font-family: fonts_title!important;
+  @include ring(50px, #FF5F01, 1);
+}
+
+#OneRing {
+  p {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    font-family: fonts_title!important;
+    font-size: 2em;
+  }
+  @include ring(200px, #FCCB04, 1);
+}
+
+#SixRing {
+  @include ring(40px, black, 6);
+}
+
+.text-uppercase {
+  font-family: fonts_title;
+  font-size: 2em;
+
+}

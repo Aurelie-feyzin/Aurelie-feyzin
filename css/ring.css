@@ -1,0 +1,93 @@
+h1 {
+    font-family: fonts_title !important;
+}
+h1 .ring1 {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #FF5F01;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px #b44200;
+    position: static;
+    z-index: 1;
+}
+
+#OneRing p {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    font-family: fonts_title !important;
+    font-size: 2em;
+}
+#OneRing .ring1 {
+    width: 200px;
+    height: 200px;
+    border: 20px solid #FCCB04;
+    border-radius: 100px;
+    box-shadow: 4px 4px 8px #b18f02;
+    position: static;
+    z-index: 1;
+}
+
+#SixRing .ring1 {
+    width: 40px;
+    height: 40px;
+    border: 4px solid black;
+    border-radius: 20px;
+    box-shadow: 0.8px 0.8px 1.6px black;
+    position: static;
+    z-index: 1;
+}
+#SixRing .ring2 {
+    width: 48px;
+    height: 48px;
+    border: 4.8px solid black;
+    border-radius: 24px;
+    box-shadow: 0.96px 0.96px 1.92px black;
+    position: relative;
+    left: -19.2px;
+    z-index: 2;
+}
+#SixRing .ring3 {
+    width: 57.6px;
+    height: 57.6px;
+    border: 5.76px solid black;
+    border-radius: 28.8px;
+    box-shadow: 1.152px 1.152px 2.304px black;
+    position: relative;
+    left: -42.24px;
+    z-index: 3;
+}
+#SixRing .ring4 {
+    width: 69.12px;
+    height: 69.12px;
+    border: 6.912px solid black;
+    border-radius: 34.56px;
+    box-shadow: 1.3824px 1.3824px 2.7648px black;
+    position: relative;
+    left: -69.888px;
+    z-index: 4;
+}
+#SixRing .ring5 {
+    width: 82.944px;
+    height: 82.944px;
+    border: 8.2944px solid black;
+    border-radius: 41.472px;
+    box-shadow: 1.65888px 1.65888px 3.31776px black;
+    position: relative;
+    left: -103.0656px;
+    z-index: 5;
+}
+#SixRing .ring6 {
+    width: 99.5328px;
+    height: 99.5328px;
+    border: 9.95328px solid black;
+    border-radius: 49.7664px;
+    box-shadow: 1.990656px 1.990656px 3.981312px black;
+    position: relative;
+    left: -142.87872px;
+    z-index: 6;
+}
+
+.text-uppercase {
+    font-family: fonts_title;
+    font-size: 2em;
+}

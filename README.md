@@ -20,3 +20,11 @@ intégrer la maquette finale du graphiste [disponible ici](http://images.innoved
 lien vers le rendu de cette partie : 
 https://codepen.io/Rachellane/full/rqONmX
 
+#### Part 3
+
+**Objectif** :
+Découvrir les préprocesseurs CSS. Sauron veut être en mesure d'ajouter des anneaux sur ses pages. Plein d'anneaux, des grands, des petits, avec plein de couleurs différentes !
+Pour cela, il faut créer une mixin appelée ring qui permet de dessiner un anneau. 
+
+lien vers le rendu de cette partie : 
+https://codepen.io/Rachellane/full/vVNRBG/
